@@ -7,6 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 1600px;
 }
 
 .btn {
@@ -26,6 +27,7 @@ body {
 }
 
 nav {
+    width: 1600px;
     background-color:white;
     color: rgb(114, 10, 242);
     height: 64px;
@@ -70,4 +72,78 @@ nav:hover{
 
 a {
     text-decoration: none;
+}
+
+
+.hero{
+    background: linear-gradient(135deg, #2d2e2e 0%, #3d3d3d 50%, #2b292a 100%);
+    background-image: url('../assets/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 120px;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f6f7f8;
+    width: 1600px;
+}
+
+.hero div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.structure{
+    width: 1600px;
+    height: 448px;
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-btn{
+    height: 60px;
+    width: 60px;
+    background-color: #F95555;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.card {
+    height: 300px;
+    width: 322px;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-width: 0px;
+    margin: 8px;
+    background-color: rgb(247, 247, 242);
+}
+.card p {
+    height: 40px;
+    width: 272px;
+    font-size: 16px;
+    text-align: center;
+}
+.card-container {
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.structure .title {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+    margin-bottom: 40px;
 }
