@@ -147,3 +147,18 @@ a {
     align-items: center;
     margin-bottom: 40px;
 }
+
+.solution {
+    width: 1600px;
+    height: 840px;
+    padding: 120px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+.solution-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
