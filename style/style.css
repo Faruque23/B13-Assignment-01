@@ -183,3 +183,10 @@ a {
     padding: 80px;
     background-color: rgb(249, 249, 240);
 }
+
+.footer {
+    width: 1600px;
+    height: 250px;
+    background-color: rgb(19, 19, 94);
+    padding: 120px;
+}
