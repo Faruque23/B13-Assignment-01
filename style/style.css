@@ -162,3 +162,24 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.think-more {
+    width: 1600px;
+    height: 506px;
+    padding: 0 120px 120px 120px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+
+.think-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1360px;
+    height: 286px;
+    padding: 80px;
+    background-color: rgb(249, 249, 240);
+}
